@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./Facebook-Linkedin-image-template-10.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.web-sites{
+    width: 50%;
+    padding: 40px;
+}
+
+.web-sites h1{
+    color:rgb(18, 250, 18);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.web-sites a{
+    color:rgb(18, 250, 18);
+    margin-left: 44%;
+    font-size: 20px;
+}
+
+.ui{
+    width: 50%;
+    padding: 40px;
+}
+
+.ui a{
+    color: rgb(245, 4, 4);
+    margin-left: 44%;
+    font-size: 20px;
+}
+
+.ui h1{
+  color: rgb(254, 10, 10);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.main-container hr{
+    height: 80vh;
+    color: white;
+}
+
+@media (max-width: 480px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    .main-container{
+        width: 100%;
+        height: 100vh;
+        background-image: url('./Facebook-Linkedin-image-template-10.jpg');
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .web-sites{
+        width: 50%;
+        padding: 40px;
+    }
+    
+    .web-sites h1{
+        color:rgb(18, 250, 18);
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    .web-sites a{
+        color:rgb(18, 250, 18);
+        margin-left: 44%;
+        font-size: 20px;
+    }
+    
+    .ui{
+        width: 50%;
+        padding: 40px;
+    }
+    
+    .ui a{
+        color: rgb(245, 4, 4);
+        margin-left: 44%;
+        font-size: 20px;
+    }
+    
+    .ui h1{
+      color: rgb(254, 10, 10);
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    
+    .main-container hr{
+        height: 80vh;
+        color: white;
+    }
+}
